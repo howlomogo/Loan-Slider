@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Wonga Slider Test - Matt Pilcher</title>
+
+	<!-- Font -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+
+	<!-- jQuery & jQuery UI -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+	<!-- Custom Javascript -->
+	<script src="slider.js"></script>
+
+	<!-- Link Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/js/bootstrap.js"></script>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+
+<div class="container wrapper">
+	<div class="extramargin">
+		<!-- First Slider -->
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<label for="howmuchinput">how much cash do you want?</label>
+				<div class="input-group pull-right">
+					<span class="input-group-addon">£</span>
+					<input id="howmuchinput" value="" type="text" class="form-control">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 col-sm-1">
+				<div id="howmuchminus" class="sliderminus"></div>
+			</div>
+
+			<div class="col-md-10 col-sm-10 slidercontainer">
+				<div id="howmuchslider"></div>
+			</div>
+
+			<div class="col-md-1 col-sm-1">
+				<div id="howmuchplus" class="sliderplus"></div>
+			</div>
+		</div>
+
+		<!-- Second Slider -->
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<label for="howlonginput">how long do you want it for?</label>
+				<div class="input-group pull-right">
+					<input id="howlonginput" value="" type="text" class="form-control">
+				  <span class="input-group-addon" id="addon-right">days</span>
+				</div>
+				<p id="repaydatefull" class="pull-right">(Repayment date: <span id="repaydate"></span>)</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 col-sm-1">
+				<div id="howlongminus" class="sliderminus"></div>
+			</div>
+
+			<div class="col-md-10 col-sm-10 slidercontainer">
+				<div id="howlongslider"></div>
+			</div>
+
+			<div class="col-md-1 col-sm-1">
+				<div id="howlongplus" class="sliderplus"></div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-2 col-sm-2">
+				<h5>Borrowing</h5>
+				<h3 id="borrowamount"></h3>
+			</div>
+
+			<div class="col-md-1 col-sm-1">
+				<div id="sumplus"></div>
+			</div>
+
+			<div class="col-md-2 col-sm-2">
+				<h5>Interest</h5>
+				<h3 id="interestamount"></h3>
+			</div>
+
+			<div class="col-md-1 col-sm-1">
+				<div id="sumequals"></div>
+			</div>
+
+			<div class="col-md-2 col-sm-2">
+				<h5>Total to repay</h5>
+				<h3 id="repayamount"></h3>
+			</div>
+
+			<div class="col-md-4 col-sm-4">
+				<button type="button" id="applybtn" class="btn btn-primary">Apply now</button>
+			</div>
+		</div>
+	</div> <!-- /extramargin -->
+</div>
+
+</body>
+
+</html>

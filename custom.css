@@ -1,0 +1,208 @@
+html * {
+	font-size: 18px;
+}
+
+body {
+	background-color: #5E93C9;
+}
+
+/* Font Styles */
+h1, h2, h3, h4, h5, h6, p, a, label, input {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #19465E;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Amounts */
+h5 {
+	font-size: 0.9em;
+	font-weight: 300;
+}
+
+/* Amounts Values */
+h3 {
+	font-size: 1.2em;
+}
+
+p {
+	font-size: 1em;
+}
+
+label {
+	font-size: 1.3em;
+}
+
+#repaydatefull {
+	font-size: 0.8em !important;
+	font-weight: 300 !important;
+	margin: 10px 20px 0px 0px;
+}
+
+#repaydatefull > span {
+	font-size: 1em !important;
+}
+
+/* Font Styles */
+
+
+/* Containers */
+.extramargin {
+	margin: 0px 100px 0px;
+	padding:30px 30px;
+	background-color: #fff;
+}
+
+.wrapper {
+	padding: 0px;
+	margin-top: 90px;
+}
+/* Containers */
+
+
+/* Sliders */
+
+/* Make the padding slightly less than normal for the column */
+.slidercontainer {
+	padding: 0px 8px;
+}
+
+#howmuchslider, #howlongslider {
+	margin: 35px 0px 40px;
+}
+
+/* Slider Buttons - UI elements used from Wonga site */
+.sliderminus {
+	background: url("slider.png") no-repeat scroll -174px -11px transparent;
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin: 24px 0px;
+	cursor: pointer;
+}
+
+.sliderplus {
+	background: url("slider.png") no-repeat scroll -133px -11px transparent;
+	width: 32px;
+	height: 32px;
+	float: right;
+	margin: 24px 0px;
+	cursor: pointer;
+}
+
+.sliderminus:hover {
+	background-position: -256px -11px;
+}
+
+.sliderplus:hover {
+	background-position: -215px -11px;
+}
+
+/* jQuery UI Slider Changes */
+.ui-slider-range {
+	background: none repeat scroll 0% 0% #40AAE1;
+}
+
+.ui-corner-all {
+	border-radius: 0px;
+}
+
+.ui-widget-content {
+	border: none;
+	background: none;
+	background-color: #E3EDF0;
+}
+
+.ui-slider-horizontal {
+    height: 11px;
+}
+
+/* Slider Handle */
+.ui-slider .ui-slider-handle {
+	background: url("slider.png") no-repeat scroll -65px 0px transparent;
+	width: 58px;
+	height: 59px;
+	top: -22px;
+	border: none;
+	outline: none;
+	margin-left: -29px;
+}
+
+.ui-slider .ui-slider-handle:hover {
+	background: url("slider.png") no-repeat scroll 0px 0px transparent;
+}
+
+/* Slider */
+
+
+/* Sum Amount Images */
+#sumplus {
+	background: url("slider.png") no-repeat scroll -18px -66px transparent;
+	width: 24px;
+	height: 24px;
+	margin: 8px auto;
+}
+
+#sumequals {
+	background: url("slider.png") no-repeat scroll -52px -70px transparent;
+	width: 24px;
+	height: 16px;
+	margin: 12px auto;
+}
+/* Sum Amount Images */
+
+
+/* Apply Button */
+#applybtn {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	padding: 15px 12px;
+	margin: 0px;
+	float: right;
+	vertical-align: top;
+	font-size: 1.2em;
+	font-weight: 300;
+	background-color: #E85C40;
+	border: none;
+	border-radius: 0px;
+	width: 270px;
+}
+
+
+/* Input Styles */
+input {
+	font-size: 0.9em !important;
+	color: #19465E !important;
+	font-weight: 300;
+	width:120px;
+	padding: 0px !important;
+	border: none !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+}
+
+/* Wrapper for input and addon */
+.input-group {
+	border: 1px solid #71919E;
+	width: 120px;
+	padding: 0px 12px;
+}
+
+.input-group-addon {
+	font-size: 0.9em !important;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #000;
+	padding: 0px 10px 0px 0px;
+	text-align: center;
+	background-color: #fff;
+	border: none;
+	border-radius: 0px;
+}
+
+#addon-right {
+	padding: 0px;
+}
+/* Input Styles */
+
